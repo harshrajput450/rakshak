@@ -1,0 +1,6 @@
+{
+  "name": "रक्षक (Rakshak)",
+  "description": "Offline-first voice-guided emergency first-aid assistant in Hindi and English with local ML triage, guided triage, live 110 BPM CPR coach, SOS sharing, nearby hospitals, and privacy-preserving continuous learning.",
+  "requestFramePermissions": ["microphone", "camera", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

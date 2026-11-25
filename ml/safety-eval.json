@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "description": "Critical emergency safety evaluation suite for Rakshak offline classifier.",
+  "minimumAccuracy": 0.88,
+  "minimumMacroF1": 0.87,
+  "minimumCriticalRecall": 0.85,
+  "criticalIntents": [
+    "cardiac_arrest_cpr",
+    "choking",
+    "severe_bleeding",
+    "heart_attack",
+    "stroke",
+    "snakebite",
+    "drowning",
+    "allergic_reaction"
+  ],
+  "mustNotBeUnknown": [
+    {"text": "Person not breathing at all", "allowed": ["cardiac_arrest_cpr"]},
+    {"text": "Saans nahi chal rahi hai bilkul", "allowed": ["cardiac_arrest_cpr", "asthma_attack", "choking"]},
+    {"text": "Choking cannot breathe food stuck", "allowed": ["choking"]},
+    {"text": "Heavy blood spurting from deep cut", "allowed": ["severe_bleeding"]},
+    {"text": "Chest crushing pain and cold sweat", "allowed": ["heart_attack"]},
+    {"text": "Face drooping one arm weak slurred speech", "allowed": ["stroke"]},
+    {"text": "Saanp ne kaat liya pair mein", "allowed": ["snakebite"]},
+    {"text": "Child pulled out of swimming pool unconscious", "allowed": ["drowning", "cardiac_arrest_cpr"]}
+  ],
+  "mustTriggerBreathingSafetyRule": [
+    "not breathing",
+    "saans nahi aa rahi",
+    "saans nahi chal rahi",
+    "stopped breathing",
+    "सांस नहीं चल रही"
+  ]
+}

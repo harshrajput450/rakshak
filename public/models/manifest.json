@@ -1,0 +1,19 @@
+{
+  "latestVersion": "1.0.0",
+  "updatedAt": "2026-11-23T10:57:59.242Z",
+  "minAppVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "/models/model-v1.0.0.json",
+      "sha256": "69e4b46cd842f89482b909fbc2b77c257bc59b8217cfe01b46b27ba1efbb999f",
+      "signature": "287dc97ec1dab9813a11bfd8e5fc7a0382c02294f62cc5605e6b4850ada27ce1",
+      "trainedAt": "2026-11-23T10:57:58.900Z",
+      "accuracy": 0.8818,
+      "macroF1": 0.8945,
+      "heldOutAccuracy": 1,
+      "safetyPassed": true,
+      "sizeBytes": 3348685
+    }
+  ]
+}

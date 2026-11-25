@@ -1,0 +1,1373 @@
+{
+  "version": "2.0.0",
+  "disclaimer": {
+    "en": "Guidance until help arrives. Not a replacement for doctors.",
+    "hi": "मदद आने तक के लिए मार्गदर्शन। यह डॉक्टर का विकल्प नहीं है।"
+  },
+  "sources": [
+    "IFRC First Aid Reference Centre",
+    "World Health Organization (WHO) Basic Emergency Care",
+    "American Heart Association (AHA) / Indian Resuscitation Council (IRC)",
+    "St John Ambulance / Red Cross First Aid Manual",
+    "NHS First Aid & Anaphylaxis / Burn Guidance",
+    "National Disaster Management Authority (NDMA) India"
+  ],
+  "protocols": [
+    {
+      "id": "cardiac_arrest_cpr",
+      "urgency": "critical",
+      "icon": "heart-pulse",
+      "supportsCprCoach": true,
+      "title": {
+        "en": "Cardiac Arrest / CPR",
+        "hi": "कार्डियक अरेस्ट / सीपीआर (CPR)"
+      },
+      "shortLabel": {
+        "en": "CPR / Not Breathing",
+        "hi": "सीपीआर / सांस बंद"
+      },
+      "subtitle": {
+        "en": "Unresponsive and not breathing normally",
+        "hi": "बेहोश है और सामान्य सांस नहीं चल रही"
+      },
+      "call112First": {
+        "en": "Call 112 immediately on speakerphone and ask someone nearby for an AED.",
+        "hi": "तुरंत स्पीकरफ़ोन पर 112 डायल करें और पास से एईडी (AED) मंगवाएं।"
+      },
+      "steps": [
+        {
+          "en": "Ensure the scene is safe (no traffic, fire, or live electrical wires).",
+          "hi": "सुनिश्चित करें कि आसपास का स्थान सुरक्षित है (ट्रैफ़िक, आग या बिजली का तार न हो)।"
+        },
+        {
+          "en": "Tap both shoulders firmly and shout: 'Are you okay?' Look for normal breathing for up to 10 seconds.",
+          "hi": "दोनों कंधों को मजबूती से थपथपाएं और जोर से पूछें: 'क्या आप ठीक हैं?' 10 सेकंड तक सामान्य सांस की जांच करें।"
+        },
+        {
+          "en": "If the person is unresponsive and not breathing (or only gasping), call 112 on speakerphone immediately.",
+          "hi": "यदि व्यक्ति जवाब न दे और सामान्य सांस न चले (या केवल झटके से हांफ रहा हो), तो तुरंत स्पीकरफ़ोन पर 112 पर कॉल करें।"
+        },
+        {
+          "en": "Lay the person flat on their back on a firm surface and kneel beside their chest.",
+          "hi": "व्यक्ति को सख्त समतल सतह पर पीठ के बल लिटाएं और छाती के पास घुटनों के बल बैठें।"
+        },
+        {
+          "en": "Place the heel of one hand in the center of the chest (lower half of the breastbone) and place your other hand on top, interlocking fingers.",
+          "hi": "एक हाथ की हथेली छाती के बिल्कुल बीच में रखें, दूसरा हाथ उसके ऊपर रखकर उंगलियां आपस में फंसा लें।"
+        },
+        {
+          "en": "Push hard and fast straight down about 5–6 cm at 100–120 compressions per minute, letting the chest fully recoil after each push.",
+          "hi": "सीधा नीचे की ओर लगभग 5–6 सेमी गहरा, तेज़ और मजबूत दबाव दें (100–120 बार प्रति मिनट), और हर दबाव के बाद छाती को पूरा ऊपर आने दें।"
+        },
+        {
+          "en": "Switch rescuers every 2 minutes if help is present, or follow AED voice prompts as soon as one arrives, until paramedics take over.",
+          "hi": "यदि कोई और मददगार हो तो हर 2 मिनट में बारी बदलें, या एईडी (AED) आने पर उसके निर्देश सुनें, और एम्बुलेंस आने तक दबाव जारी रखें।"
+        }
+      ],
+      "doNot": [
+        {
+          "en": "Do NOT stop compressions unnecessarily or lean your weight on the chest between pushes.",
+          "hi": "दबावों के बीच छाती पर भार न छोड़े रहें और बिना कारण सीपीआर न रोकें।"
+        },
+        {
+          "en": "Do NOT give food, water, or medicine to an unresponsive person.",
+          "hi": "बेहोश व्यक्ति को पानी, खाना या कोई दवा न दें।"
+        },
+        {
+          "en": "Do NOT place a pillow under the head or perform CPR on a soft mattress if a firm floor is nearby.",
+          "hi": "सिर के नीचे तकिया न रखें और यदि सख्त ज़मीन उपलब्ध हो तो नरम गद्दे पर सीपीआर न करें।"
+        }
+      ],
+      "whenToGetHelp": {
+        "en": "Call 112 before starting compressions if alone, or have a bystander call 112 right away.",
+        "hi": "अकेले हों तो सीपीआर शुरू करने से पहले 112 पर कॉल करें, या साथ खड़े व्यक्ति से तुरंत कॉल करवाएं।"
+      },
+      "sources": [
+        {"name": "AHA Hands-Only CPR", "url": "https://cpr.heart.org/en/cpr-courses-and-kits/hands-only-cpr"},
+        {"name": "IFRC First Aid Guidelines", "url": "https://www.globalfirstaidcentre.org/"}
+      ],
+      "review_status": "pending_medical_review",
+      "last_reviewed": "2026-11-23"
+    },
+    {
+      "id": "choking",
+      "urgency": "critical",
+      "icon": "wind",
+      "title": {
+        "en": "Choking (Airway Blocked)",
+        "hi": "गला अटकना / दम घुटना (Choking)"
+      },
+      "shortLabel": {
+        "en": "Choking",
+        "hi": "गला अटकना"
+      },
+      "subtitle": {
+        "en": "Cannot cough, speak, or breathe",
+        "hi": "खांस, बोल या सांस नहीं ले पा रहा"
+      },
+      "call112First": {
+        "en": "Call 112 right away if the person cannot cough, speak, or breathe—act immediately.",
+        "hi": "यदि व्यक्ति खांस, बोल या सांस नहीं ले पा रहा है तो तुरंत 112 पर कॉल करवाएं और मदद शुरू करें।"
+      },
+      "steps": [
+        {
+          "en": "Ask 'Are you choking?' If they can cough forcefully, encourage them to keep coughing without hitting their back.",
+          "hi": "पूछें 'क्या आपका गला अटक गया है?' यदि वे जोर से खांस पा रहे हैं, तो उन्हें खांसते रहने को कहें।"
+        },
+        {
+          "en": "If they cannot speak, cough, or breathe (age over 1 year), stand beside and slightly behind them and lean them forward.",
+          "hi": "यदि 1 वर्ष से बड़ा व्यक्ति बोल, खांस या सांस नहीं ले पा रहा है, तो बगल में खड़े होकर उन्हें आगे की ओर झुकाएं।"
+        },
+        {
+          "en": "Give up to 5 sharp back blows between the shoulder blades using the heel of your hand.",
+          "hi": "अपनी हथेली के निचले हिस्से से कंधों की हड्डियों के बीच पीठ पर 5 तेज़ झटकेदार थपथपाहट दें।"
+        },
+        {
+          "en": "If still choking, stand behind them, wrap your arms around their waist, make a fist just above the navel, grasp it with your other hand, and give 5 quick inward-and-upward abdominal thrusts.",
+          "hi": "यदि अटका चीज़ न निकले, तो पीछे खड़े होकर कमर के चारों ओर हाथ डालें, नाभि से थोड़ा ऊपर मुट्ठी रखकर दूसरे हाथ से पकड़ें और अंदर व ऊपर की ओर 5 तेज़ दबाव (Heimlich) दें।"
+        },
+        {
+          "en": "For an infant under 1 year: support the baby face-down along your forearm with head lower than chest and give 5 gentle back blows, then 5 two-finger chest thrusts.",
+          "hi": "1 वर्ष से छोटे शिशु के लिए: सिर नीचे रखते हुए बच्चे को अपनी बांह पर पेट के बल लिटाएं और पीठ पर 5 हल्की थपथपाहट दें, फिर पलटकर 2 उंगलियों से छाती पर 5 दबाव दें।"
+        },
+        {
+          "en": "Alternate 5 back blows and 5 thrusts until the object comes out or the person becomes unresponsive (if unresponsive, start CPR and call 112).",
+          "hi": "अटकी चीज़ निकलने तक 5 पीठ के थपेड़े और 5 पेट के दबाव बारी-बारी दोहराएं; यदि व्यक्ति बेहोश हो जाए तो सीपीआर शुरू करें और 112 बुलाएं।"
+        }
+      ],
+      "doNot": [
+        {
+          "en": "Do NOT perform abdominal thrusts on an infant under 1 year old; use chest thrusts instead.",
+          "hi": "1 वर्ष से छोटे शिशु के पेट पर दबाव न दें; केवल छाती पर दो उंगलियों से दबाव दें।"
+        },
+        {
+          "en": "Do NOT sweep your fingers blindly inside the throat unless you can clearly see and safely grasp the object.",
+          "hi": "जब तक अटकी हुई चीज़ साफ न दिखे, गले के अंदर अंधाधुंध उंगली न डालें।"
+        },
+        {
+          "en": "Do NOT offer water or food while the airway is blocked.",
+          "hi": "सांस की नली बंद होने पर पानी पीने या कुछ खाने को न दें।"
+        }
+      ],
+      "whenToGetHelp": {
+        "en": "Call 112 immediately for any severe choking, and seek hospital evaluation even after abdominal thrusts succeed.",
+        "hi": "गंभीर दम घुटने पर तुरंत 112 पर कॉल करें; पेट पर दबाव से चीज़ निकलने के बाद भी डॉक्टर को दिखाएं।"
+      },
+      "sources": [
+        {"name": "NHS Choking First Aid", "url": "https://www.nhs.uk/conditions/first-aid/choking/"},
+        {"name": "Red Cross Choking Guidance", "url": "https://www.redcross.org/take-a-class/choking"}
+      ],
+      "review_status": "pending_medical_review",
+      "last_reviewed": "2026-11-23"
+    },
+    {
+      "id": "severe_bleeding",
+      "urgency": "critical",
+      "icon": "droplets",
+      "title": {
+        "en": "Severe Bleeding",
+        "hi": "तेज़ खून बहना (Severe Bleeding)"
+      },
+      "shortLabel": {
+        "en": "Bleeding",
+        "hi": "तेज़ खून बहना"
+      },
+      "subtitle": {
+        "en": "Deep wound, gushing or nonstop blood",
+        "hi": "गहरा घाव या लगातार तेज़ रक्तस्राव"
+      },
+      "call112First": {
+        "en": "Call 112 immediately for spurting, heavy, or uncontrolled bleeding.",
+        "hi": "तेज़ या न रुकने वाले रक्तस्राव के लिए तुरंत 112 पर कॉल करें।"
+      },
+      "steps": [
+        {
+          "en": "Protect yourself if clean disposable gloves or a clean plastic barrier are available, and expose the wound.",
+          "hi": "यदि उपलब्ध हो तो साफ़ दस्ताने या प्लास्टिक बैग पहनें और घाव की जगह को साफ देखें।"
+        },
+        {
+          "en": "Apply firm, steady direct pressure right onto the wound using a clean cloth, sterile gauze, or clean folded garment.",
+          "hi": "साफ़ कपड़े, गॉज़ या रुमाल से घाव पर सीधे और लगातार मजबूत दबाव बनाकर रखें।"
+        },
+        {
+          "en": "Maintain continuous firm pressure for at least 10 minutes without peeking at the wound.",
+          "hi": "घाव को बार-बार खोलकर देखे बिना कम से कम 10 मिनट तक लगातार दबाव बनाए रखें।"
+        },
+        {
+          "en": "If blood soaks through the cloth, do NOT remove it—place another clean cloth on top and press harder.",
+          "hi": "यदि पहला कपड़ा खून से भीग जाए, तो उसे हटाएं नहीं—उसके ऊपर एक और साफ़ कपड़ा रखकर और मजबूती से दबाएं।"
+        },
+        {
+          "en": "If an object (glass, knife, metal) is stuck inside the wound, do NOT pull it out; pad around both sides and press around it.",
+          "hi": "यदि घाव में कांच या चाकू जैसी कोई चीज़ धंसी हो तो उसे बाहर न निकालें; उसके दोनों तरफ कपड़ा लगाकर किनारे से दबाव दें।"
+        },
+        {
+          "en": "Help the person lie flat, keep them warm with a blanket or jacket to prevent shock, and monitor breathing until help arrives.",
+          "hi": "घायल व्यक्ति को सीधा लिटाएं, शॉक से बचाने के लिए चादर या जैकेट से ढककर गर्म रखें और एम्बुलेंस आने तक सांस पर नजर रखें।"
+        }
+      ],
+      "doNot": [
+        {
+          "en": "Do NOT remove a blood-soaked bandage—it disrupts clotting; stack fresh pads on top.",
+          "hi": "खून से सने पहले कपड़े को न हटाएं—इससे बना थक्का टूट सकता है; ऊपर से नया कपड़ा रखें।"
+        },
+        {
+          "en": "Do NOT pull out any embedded sharp object from a deep wound.",
+          "hi": "घाव में धंसी हुई किसी भी नुकीली चीज़ को बाहर न खींचें।"
+        },
+        {
+          "en": "Do NOT rub mud, turmeric, coffee powder, or ash onto an open bleeding wound.",
+          "hi": "खुले घाव पर मिट्टी, हल्दी, कॉफी या राख बिल्कुल न लगाएं।"
+        }
+      ],
+      "whenToGetHelp": {
+        "en": "Call 112 immediately if blood spurts, does not slow after 10 minutes of firm pressure, or the person feels dizzy, pale, or cold.",
+        "hi": "यदि खून पिचकारी की तरह बहे, 10 मिनट दबाने पर भी न रुके, या व्यक्ति को चक्कर व ठंड लगे तो तुरंत 112 बुलाएं।"
+      },
+      "sources": [
+        {"name": "IFRC Severe Bleeding", "url": "https://www.globalfirstaidcentre.org/"},
+        {"name": "Stop the Bleed / ACS", "url": "https://www.stopthebleed.org/"}
+      ],
+      "review_status": "pending_medical_review",
+      "last_reviewed": "2026-11-23"
+    },
+    {
+      "id": "seizure",
+      "urgency": "urgent",
+      "icon": "activity",
+      "title": {
+        "en": "Seizure / Fits",
+        "hi": "मिर्गी का दौरा / झटके (Seizure)"
+      },
+      "shortLabel": {
+        "en": "Seizure / Fits",
+        "hi": "मिर्गी / झटके"
+      },
+      "subtitle": {
+        "en": "Convulsions, jerking, or stiffening",
+        "hi": "शरीर अकड़ना या तेज झटके आना"
+      },
+      "call112First": {
+        "en": "Call 112 if the seizure lasts more than 5 minutes, repeats, happens in water, or if the person is injured or pregnant.",
+        "hi": "यदि दौरा 5 मिनट से अधिक चले, बार-बार आए, पानी में हो, या व्यक्ति घायल व गर्भवती हो तो तुरंत 112 पर कॉल करें।"
+      },
+      "steps": [
+        {
+          "en": "Stay calm and check the time when the seizure starts.",
+          "hi": "शांत रहें और दौरा शुरू होने का समय नोट करें।"
+        },
+        {
+          "en": "Clear away hard or sharp objects (furniture, glasses, stones) around the person so they do not hurt themselves.",
+          "hi": "व्यक्ति के आसपास से सख्त या नुकीली चीजें (फर्नीचर, चश्मा, पत्थर) हटा दें ताकि चोट न लगे।"
+        },
+        {
+          "en": "Place something soft and flat (like a folded jacket or sweater) gently under their head and loosen tight neck clothing.",
+          "hi": "सिर के नीचे मुड़ा हुआ जैकेट या कोई नरम कपड़ा रखें और गले के पास के तंग कपड़े ढीले करें।"
+        },
+        {
+          "en": "Once movements slow down or stop, gently roll the person onto their side (recovery position) so saliva or vomit drains safely.",
+          "hi": "झटके कम होने या रुकने पर व्यक्ति को धीरे से एक करवट (रिकवरी पोज़िशन) लिटा दें ताकि लार या उल्टी बाहर निकल सके।"
+        },
+        {
+          "en": "Stay with them and speak calmly and reassuringly until they are fully alert and oriented.",
+          "hi": "पूरी तरह होश में आने तक उनके पास रहें और शांत व भरोसेमंद आवाज में बात करें।"
+        }
+      ],
+      "doNot": [
+        {
+          "en": "Do NOT force anything (spoons, fingers, cloth, or keys) between their teeth or into their mouth.",
+          "hi": "मरीज के मुंह या दांतों के बीच चम्मच, कपड़ा, चाबी या उंगली बिल्कुल न डालें।"
+        },
+        {
+          "en": "Do NOT hold the person down or physically restrain their jerking arms and legs.",
+          "hi": "दौरे के दौरान व्यक्ति के हाथ-पैर को ताकत से पकड़कर रोकने की कोशिश न करें।"
+        },
+        {
+          "en": "Do NOT make them smell shoes, onions, or leather, and do NOT give water until fully awake.",
+          "hi": "जूता, प्याज या चमड़ा न सुंघाएं, और पूरा होश आने से पहले पानी न पिलाएं।"
+        }
+      ],
+      "whenToGetHelp": {
+        "en": "Call 112 if it is their first seizure, lasts over 5 minutes, they do not regain consciousness, or breathing stays irregular afterward.",
+        "hi": "पहली बार दौरा पड़ा हो, 5 मिनट से ज्यादा चले, होश न लौटे या बाद में सांस ठीक न हो तो तुरंत 112 पर कॉल करें।"
+      },
+      "sources": [
+        {"name": "WHO / Epilepsy Foundation First Aid", "url": "https://www.epilepsy.com/recognition/first-aid-resources"},
+        {"name": "NHS Seizure Care", "url": "https://www.nhs.uk/conditions/epilepsy/"}
+      ],
+      "review_status": "pending_medical_review",
+      "last_reviewed": "2026-11-23"
+    },
+    {
+      "id": "burns",
+      "urgency": "urgent",
+      "icon": "flame",
+      "title": {
+        "en": "Burns & Scalds",
+        "hi": "जलना और झुलसना (Burns)"
+      },
+      "shortLabel": {
+        "en": "Burns",
+        "hi": "जलना"
+      },
+      "subtitle": {
+        "en": "Fire, hot water, steam, oil, or chemical burn",
+        "hi": "आग, गर्म पानी, भाप, तेल या एसिड से जलना"
+      },
+      "call112First": {
+        "en": "Call 112 immediately for large, deep, facial/hand/genital, electrical, or chemical burns, or smoke inhalation.",
+        "hi": "बड़े या गहरे जलने, चेहरे/हाथ/अंग पर जलने, करंट/केमिकल बर्न या धुआं अंदर जाने पर तुरंत 112 पर कॉल करें।"
+      },
+      "steps": [
+        {
+          "en": "Move the person away from the heat source safely (if clothing is on fire: Stop, Drop, and Roll).",
+          "hi": "व्यक्ति को सुरक्षित रूप से आग या गर्मी के स्रोत से दूर ले जाएं (कपड़ों में आग हो तो: रुकें, लेटें और लुढ़कें)।"
+        },
+        {
+          "en": "Immediately cool the burn under cool (not ice-cold) running tap water for at least 20 continuous minutes.",
+          "hi": "जले हुए हिस्से पर तुरंत सामान्य ठंडे (बर्फ़ीले नहीं) बहते पानी की धार कम से कम 20 मिनट तक लगातार डालें।"
+        },
+        {
+          "en": "While cooling, gently remove rings, watches, belts, or loose clothing near the area—stop if cloth is stuck to skin.",
+          "hi": "ठंडा करते समय अंगूठी, घड़ी, बेल्ट और ढीले कपड़े उतार दें—यदि कपड़ा त्वचा से चिपक गया हो तो उसे खींचें नहीं।"
+        },
+        {
+          "en": "If it is a dry chemical burn, brush off dry powder first before flushing continuously with running water.",
+          "hi": "यदि सूखे केमिकल से जला हो, तो पहले सूखा पाउडर झाड़कर हटाएं और फिर लगातार बहते पानी से धोएं।"
+        },
+        {
+          "en": "After cooling for 20 minutes, cover the burn loosely with clean cling film (lengthwise, not wrapped tightly) or a sterile non-fluffy cloth.",
+          "hi": "20 मिनट ठंडा करने के बाद जले हिस्से को साफ क्लिंग फिल्म या बिना रोएं वाले साफ कपड़े से ढीला ढक दें।"
+        },
+        {
+          "en": "Keep the rest of the person warm with a blanket while waiting for medical care.",
+          "hi": "डॉक्टरी मदद आने तक व्यक्ति के बाकी शरीर को कंबल या चादर से गर्म रखें।"
+        }
+      ],
+      "doNot": [
+        {
+          "en": "Do NOT apply ice, toothpaste, butter, ghee, turmeric, ink, or oil onto a burn.",
+          "hi": "जले हुए स्थान पर बर्फ, टूथपेस्ट, मक्खन, घी, हल्दी, स्याही या तेल बिल्कुल न लगाएं।"
+        },
+        {
+          "en": "Do NOT pop or prick burn blisters.",
+          "hi": "जलने से बने फफोलों को बिल्कुल न फोड़ें।"
+        },
+        {
+          "en": "Do NOT peel away clothing that has melted or stuck firmly to the burned skin.",
+          "hi": "जली हुई त्वचा से चिपके हुए कपड़ों को खींचकर न उखाड़ें।"
+        }
+      ],
+      "whenToGetHelp": {
+        "en": "Seek emergency hospital care for any burn larger than the person's palm, any burn in a baby or elderly person, or burns on the face, hands, feet, or joints.",
+        "hi": "हथेली से बड़े जलने, शिशु या बुजुर्ग के जलने, या चेहरे, हाथ, पैर व जोड़ों के जलने पर तुरंत अस्पताल जाएं।"
+      },
+      "sources": [
+        {"name": "NHS Burns and Scalds", "url": "https://www.nhs.uk/conditions/burns-and-scalds/"},
+        {"name": "IFRC Burn Care", "url": "https://www.globalfirstaidcentre.org/"}
+      ],
+      "review_status": "pending_medical_review",
+      "last_reviewed": "2026-11-23"
+    },
+    {
+      "id": "snakebite",
+      "urgency": "critical",
+      "icon": "alert-triangle",
+      "title": {
+        "en": "Snakebite",
+        "hi": "सांप का काटना (Snakebite)"
+      },
+      "shortLabel": {
+        "en": "Snakebite",
+        "hi": "सांप का काटना"
+      },
+      "subtitle": {
+        "en": "Suspected venomous or unknown snake bite",
+        "hi": "जहरीले या अज्ञात सांप के काटने पर"
+      },
+      "call112First": {
+        "en": "Call 112 immediately and transport the victim to the nearest hospital stocked with anti-venom.",
+        "hi": "तुरंत 112 पर कॉल करें और मरीज को नजदीकी एंटी-वेनम वाले अस्पताल ले जाएं।"
+      },
+      "steps": [
+        {
+          "en": "Move the victim calmly away from the snake's striking range without trying to catch or kill the snake.",
+          "hi": "सांप को पकड़ने या मारने की कोशिश किए बिना मरीज को सुरक्षित दूरी पर ले जाएं।"
+        },
+        {
+          "en": "Keep the victim completely calm and still—walking or panic speeds venom spread through the bloodstream.",
+          "hi": "मरीज को शांत और स्थिर लिटाएं—घबराने या चलने से जहर शरीर में तेजी से फैलता है।"
+        },
+        {
+          "en": "Remove rings, bangles, anklets, watch, and tight shoes from the bitten limb right away before swelling starts.",
+          "hi": "सूजन आने से पहले काटे गए अंग से अंगूठी, चूड़ी, पायल, घड़ी और तंग जूते तुरंत उतार दें।"
+        },
+        {
+          "en": "Keep the bitten arm or leg still using a light splint and keep it at or slightly below heart level.",
+          "hi": "हल्के स्प्लिंट से काटे गए हाथ या पैर को हिलने से रोकें और उसे दिल के स्तर पर या उससे थोड़ा नीचे रखें।"
+        },
+        {
+          "en": "Note the time of the bite and watch closely for drooping eyelids, blurred vision, slurred speech, or breathing trouble.",
+          "hi": "काटने का समय नोट करें और पलकें गिरने, धुंधला दिखने, बोलने में दिक्कत या सांस फूलने के संकेतों पर नजर रखें।"
+        }
+      ],
+      "doNot": [
+        {
+          "en": "Do NOT cut the wound, suck out the venom by mouth, or burn the bite site.",
+          "hi": "घाव पर चीरा न लगाएं, मुंह से जहर न चूसें और न ही जख्म को जलाएं।"
+        },
+        {
+          "en": "Do NOT tie a tight rope or tourniquet around the limb—it causes severe tissue damage.",
+          "hi": "अंग पर कसकर रस्सी या टूर्निकेट न बांधें—इससे अंग खराब हो सकता है।"
+        },
+        {
+          "en": "Do NOT give alcohol, aspirin, herbal pastes, or wait for faith healers instead of reaching a hospital for anti-venom.",
+          "hi": "झाड़-फूंक में समय बर्बाद न करें, और न ही शराब, एस्पिरिन या जड़ी-बूटी का लेप लगाएं।"
+        }
+      ],
+      "whenToGetHelp": {
+        "en": "Treat every snakebite as a medical emergency—anti-venom at a hospital is the only proven treatment.",
+        "hi": "हर सांप के काटने को आपात स्थिति मानें—अस्पताल में एंटी-वेनम ही एकमात्र सुरक्षित इलाज है।"
+      },
+      "sources": [
+        {"name": "WHO Snakebite Envenoming", "url": "https://www.who.int/health-topics/snakebite"},
+        {"name": "NHM India Snakebite Protocol", "url": "https://nhm.gov.in/"}
+      ],
+      "review_status": "pending_medical_review",
+      "last_reviewed": "2026-11-23"
+    },
+    {
+      "id": "heart_attack",
+      "urgency": "critical",
+      "icon": "heart-crack",
+      "supportsCprCoach": true,
+      "title": {
+        "en": "Heart Attack Symptoms",
+        "hi": "हार्ट अटैक के लक्षण (Heart Attack)"
+      },
+      "shortLabel": {
+        "en": "Heart Attack",
+        "hi": "हार्ट अटैक"
+      },
+      "subtitle": {
+        "en": "Chest pressure, cold sweat, arm or jaw pain",
+        "hi": "सीने में दबाव, ठंडा पसीना, बांह या जबड़े में दर्द"
+      },
+      "call112First": {
+        "en": "Call 112 immediately. Every minute matters for heart muscle survival.",
+        "hi": "तुरंत 112 पर कॉल करें। हृदय को बचाने के लिए हर मिनट कीमती है।"
+      },
+      "steps": [
+        {
+          "en": "Call 112 right away—do not wait to see if chest discomfort goes away.",
+          "hi": "तुरंत 112 पर कॉल करें—दर्द अपने आप ठीक होने का इंतजार न करें।"
+        },
+        {
+          "en": "Have the person stop all physical activity immediately and sit comfortably propped up (knees slightly bent, back supported).",
+          "hi": "व्यक्ति को तुरंत चलना-फिरना बंद कर आराम से सहारे के साथ आधा बैठा दें (घुटने हल्के मुड़े हुए)।"
+        },
+        {
+          "en": "Loosen tight collars, ties, scarves, or belts to make breathing easier.",
+          "hi": "सांस लेने में आसानी के लिए कॉलर, टाई, दुपट्टा या बेल्ट ढीली कर दें।"
+        },
+        {
+          "en": "Keep the person calm, provide fresh air, and do not let them walk to a vehicle if an ambulance is on the way.",
+          "hi": "मरीज को शांत रखें, ताजी हवा आने दें और एम्बुलेंस आने तक उन्हें पैदल न चलाएं।"
+        },
+        {
+          "en": "If they carry prescribed heart medication (such as nitroglycerin), help them take their own prescribed medicine as directed; ask 112 operator before any other step.",
+          "hi": "यदि उनके पास डॉक्टर द्वारा दी गई हृदय की दवा है तो अपनी निर्धारित दवा लेने में मदद करें; अन्य किसी भी कदम के लिए 112 ऑपरेटर से पूछें।"
+        },
+        {
+          "en": "Watch continuously—if the person collapses and stops breathing normally, start Hands-Only CPR immediately.",
+          "hi": "लगातार नजर रखें—यदि व्यक्ति बेहोश हो जाए और सामान्य सांस रुक जाए, तो तुरंत सीपीआर शुरू करें।"
+        }
+      ],
+      "doNot": [
+        {
+          "en": "Do NOT let the person drive themselves to the hospital or climb stairs.",
+          "hi": "मरीज को खुद गाड़ी चलाकर अस्पताल न जाने दें और न ही सीढ़ियां चढ़ने दें।"
+        },
+        {
+          "en": "Do NOT dismiss chest tightness or cold sweat as harmless gas or indigestion.",
+          "hi": "सीने की जकड़न और ठंडे पसीने को साधारण गैस समझकर नजरअंदाज न करें।"
+        },
+        {
+          "en": "Do NOT leave the person alone while waiting for emergency responders.",
+          "hi": "एम्बुलेंस आने तक मरीज को अकेला न छोड़ें।"
+        }
+      ],
+      "whenToGetHelp": {
+        "en": "Call 112 immediately for chest pressure lasting more than a few minutes, pain spreading to arm/jaw/back, cold sweat, or unexplained breathlessness.",
+        "hi": "कुछ मिनट से ज्यादा सीने में दबाव, बांह/जबड़े/पीठ में दर्द, ठंडा पसीना या सांस फूलने पर तुरंत 112 बुलाएं।"
+      },
+      "sources": [
+        {"name": "AHA Heart Attack Warning Signs", "url": "https://www.heart.org/en/health-topics/heart-attack"},
+        {"name": "NHS Heart Attack First Aid", "url": "https://www.nhs.uk/conditions/heart-attack/"}
+      ],
+      "review_status": "pending_medical_review",
+      "last_reviewed": "2026-11-23"
+    },
+    {
+      "id": "stroke",
+      "urgency": "critical",
+      "icon": "brain",
+      "title": {
+        "en": "Stroke (Brain Attack — FAST)",
+        "hi": "ब्रेन स्ट्रोक / लकवा (FAST जांच)"
+      },
+      "shortLabel": {
+        "en": "Stroke",
+        "hi": "स्ट्रोक / लकवा"
+      },
+      "subtitle": {
+        "en": "Face droop, arm weakness, slurred speech",
+        "hi": "चेहरा टेढ़ा, हाथ में कमजोरी, बोली लड़खड़ाना"
+      },
+      "call112First": {
+        "en": "Call 112 immediately—clot-busting hospital care is strictly time-critical.",
+        "hi": "तुरंत 112 पर कॉल करें—स्ट्रोक का अस्पताल उपचार हर मिनट के साथ समयबद्ध होता है।"
+      },
+      "steps": [
+        {
+          "en": "Check FAST signs immediately: F (Face) — ask them to smile; does one side droop? A (Arms) — ask them to raise both arms; does one drift down? S (Speech) — ask them to repeat a simple sentence; is speech slurred?",
+          "hi": "तुरंत FAST जांच करें: चेहरा (मुस्कुराने कहें—क्या एक तरफ टेढ़ा है?), बांहें (दोनों हाथ उठाने कहें—क्या एक नीचे गिरती है?), बोली (एक वाक्य बोलने कहें—क्या आवाज लड़खड़ा रही है?)।"
+        },
+        {
+          "en": "T (Time): If ANY sign is present, call 112 immediately and write down the exact time symptoms started or when they were last seen normal.",
+          "hi": "समय (Time): यदि इनमें से कोई भी लक्षण दिखे, तो तुरंत 112 कॉल करें और ठीक समय नोट करें जब लक्षण शुरू हुए।"
+        },
+        {
+          "en": "Keep the person resting comfortably with head and shoulders slightly elevated; if drowsy or vomiting, gently place on their side.",
+          "hi": "मरीज को सिर और कंधे थोड़े ऊंचे रखकर आराम से लिटाएं; यदि नींद या उल्टी आ रही हो तो धीरे से एक करवट लिटाएं।"
+        },
+        {
+          "en": "Loosen tight clothing around the neck and reassure them calmly.",
+          "hi": "गले के पास के कपड़े ढीले करें और शांत आवाज में उन्हें दिलासा दें।"
+        },
+        {
+          "en": "Monitor breathing and consciousness closely until paramedics take over.",
+          "hi": "एम्बुलेंस आने तक उनकी सांस और होश पर लगातार ध्यान रखें।"
+        }
+      ],
+      "doNot": [
+        {
+          "en": "Do NOT give food, water, tea, or any tablet (including aspirin)—swallowing muscles may be paralyzed and cause choking.",
+          "hi": "खाने, पानी, चाय या कोई भी गोली (एस्पिरिन भी नहीं) बिल्कुल न दें—निगलने में दम घुट सकता है।"
+        },
+        {
+          "en": "Do NOT let the person sleep it off or wait to see if weakness improves.",
+          "hi": "'सोने से ठीक हो जाएगा' मानकर समय बिल्कुल बर्बाद न करें।"
+        },
+        {
+          "en": "Do NOT allow the person to stand or walk.",
+          "hi": "मरीज को खड़ा होने या चलने न दें।"
+        }
+      ],
+      "whenToGetHelp": {
+        "en": "Call 112 at the very first sign of sudden facial droop, one-sided weakness/numbness, slurred speech, sudden vision loss, or severe sudden dizziness.",
+        "hi": "चेहरा टेढ़ा होने, एक तरफ कमजोरी/सुन्नपन, बोलने में दिक्कत या अचानक चक्कर आने पर तुरंत 112 कॉल करें।"
+      },
+      "sources": [
+        {"name": "WHO / World Stroke Organization FAST", "url": "https://www.world-stroke.org/"},
+        {"name": "NHS Stroke Act FAST", "url": "https://www.nhs.uk/conditions/stroke/"}
+      ],
+      "review_status": "pending_medical_review",
+      "last_reviewed": "2026-11-23"
+    },
+    {
+      "id": "fainting",
+      "urgency": "urgent",
+      "icon": "user-minus",
+      "title": {
+        "en": "Fainting (While Breathing)",
+        "hi": "बेहोशी / चक्कर (सांस चल रही है)"
+      },
+      "shortLabel": {
+        "en": "Fainting",
+        "hi": "बेहोशी / चक्कर"
+      },
+      "subtitle": {
+        "en": "Brief blackout with normal breathing",
+        "hi": "अचानक गश खाकर गिरना, पर सांस सामान्य"
+      },
+      "call112First": {
+        "en": "First check breathing! If NOT breathing normally, switch to CPR and call 112 immediately.",
+        "hi": "पहले सांस जांचें! यदि सामान्य सांस नहीं चल रही है, तो तुरंत सीपीआर शुरू करें और 112 कॉल करें।"
+      },
+      "steps": [
+        {
+          "en": "Check if the person is breathing normally and check for any head or fall injury.",
+          "hi": "जांचें कि व्यक्ति की सांस सामान्य चल रही है या नहीं, और गिरने से सिर या शरीर में चोट तो नहीं लगी।"
+        },
+        {
+          "en": "If breathing normally and no spinal/leg injury is suspected, lay them flat on their back and gently raise their legs about 30 cm (12 inches) to restore blood flow to the brain.",
+          "hi": "यदि सांस ठीक है और कमर/पैर में चोट नहीं है, तो पीठ के बल लिटाकर पैरों को लगभग 1 फीट (30 सेमी) ऊपर उठाएं ताकि दिमाग तक खून पहुंचे।"
+        },
+        {
+          "en": "Loosen tight collars, belts, or buttons, and ensure plenty of fresh air (ask bystanders to step back).",
+          "hi": "कॉलर, बेल्ट और बटन ढीले करें और भीड़ को दूर हटाकर ताजी हवा आने दें।"
+        },
+        {
+          "en": "If they are vomiting, pregnant, or slow to wake, roll them gently onto their side (recovery position).",
+          "hi": "यदि उल्टी आ रही हो, महिला गर्भवती हो, या होश देर से आ रहा हो, तो धीरे से एक करवट लिटा दें।"
+        },
+        {
+          "en": "Once fully awake, keep them resting for 10–15 minutes before sitting up slowly; only then offer small sips of water.",
+          "hi": "पूरा होश आने के बाद भी 10–15 मिनट लेटे रहने दें, फिर धीरे से बैठाएं और उसके बाद ही थोड़ा पानी दें।"
+        }
+      ],
+      "doNot": [
+        {
+          "en": "Do NOT pour water or throw water onto an unconscious person's face or into their mouth.",
+          "hi": "बेहोश व्यक्ति के मुंह में पानी न डालें और न ही चेहरे पर जोर से पानी के छींटे मारें।"
+        },
+        {
+          "en": "Do NOT pull them upright or make them stand immediately after waking.",
+          "hi": "होश आते ही व्यक्ति को तुरंत खड़ा करने या बैठाने की जल्दबाजी न करें।"
+        },
+        {
+          "en": "Do NOT slap their face or shake them roughly.",
+          "hi": "गाल पर थप्पड़ न मारें और न ही जोर से झकझोरें।"
+        }
+      ],
+      "whenToGetHelp": {
+        "en": "Call 112 if the person does not wake within 1–2 minutes, fell and hit their head, has chest pain, is pregnant, or has diabetes.",
+        "hi": "यदि 1–2 मिनट में होश न आए, गिरते समय सिर में चोट लगी हो, सीने में दर्द हो, या मरीज गर्भवती व डायबिटिक हो तो 112 बुलाएं।"
+      },
+      "sources": [
+        {"name": "Red Cross Fainting First Aid", "url": "https://www.redcross.org/"},
+        {"name": "NHS Fainting Guidance", "url": "https://www.nhs.uk/conditions/fainting/"}
+      ],
+      "review_status": "pending_medical_review",
+      "last_reviewed": "2026-11-23"
+    },
+    {
+      "id": "fracture_injury",
+      "urgency": "urgent",
+      "icon": "bone",
+      "title": {
+        "en": "Fracture / Broken Bone",
+        "hi": "हड्डी टूटना / मोच (Fracture)"
+      },
+      "shortLabel": {
+        "en": "Fracture",
+        "hi": "हड्डी टूटना"
+      },
+      "subtitle": {
+        "en": "Deformed limb, severe pain, or suspected break",
+        "hi": "टेढ़ा अंग, तेज दर्द या हड्डी टूटने का संदेह"
+      },
+      "call112First": {
+        "en": "Call 112 if a bone pierces the skin, neck/back/hip is injured, or the limb looks pale/cold/numb.",
+        "hi": "यदि हड्डी बाहर दिख रही हो, गर्दन/पीठ/कूल्हे में चोट हो, या अंग सुन्न व ठंडा लगे तो तुरंत 112 कॉल करें।"
+      },
+      "steps": [
+        {
+          "en": "Tell the injured person to stay completely still and do not move the injured arm or leg.",
+          "hi": "घायल व्यक्ति को बिल्कुल न हिलने कहें और चोट वाले हाथ या पैर को स्थिर रखें।"
+        },
+        {
+          "en": "If there is bleeding, apply gentle pressure around the wound with a clean cloth (never press directly on a protruding bone).",
+          "hi": "यदि खून बह रहा हो तो साफ कपड़े से घाव के किनारे हल्का दबाव दें (बाहर निकली हड्डी पर सीधा दबाव न डालें)।"
+        },
+        {
+          "en": "Support and immobilize the limb in the exact position you found it using folded towels, pillows, or a padded makeshift splint above and below the break.",
+          "hi": "जिस स्थिति में अंग है उसी में तौलिया, तकिया या गद्देदार स्प्लिंट (खपची) से ऊपर व नीचे सहारा देकर हिलने से रोकें।"
+        },
+        {
+          "en": "For an arm or collarbone injury, gently support the forearm across the chest using a cloth sling if it does not cause extra pain.",
+          "hi": "हाथ या कंधे की हड्डी में दर्द न बढ़े तो कपड़े की स्लिंग (झुला) से बांह को सीने से लगाकर सहारा दें।"
+        },
+        {
+          "en": "Apply an ice pack wrapped in a clean cloth (never directly on skin) for 15–20 minutes to ease swelling on closed sprains/fractures.",
+          "hi": "त्वचा फटी न हो तो सूजन कम करने के लिए कपड़े में लिपटी बर्फ की थैली 15–20 मिनट तक रखें।"
+        }
+      ],
+      "doNot": [
+        {
+          "en": "Do NOT try to push, pull, straighten, or realign a broken bone or dislocated joint.",
+          "hi": "टूटी हुई हड्डी या उतरे हुए जोड़ को खींचकर या दबाकर सीधा करने की कोशिश बिल्कुल न करें।"
+        },
+        {
+          "en": "Do NOT massage the injured area with hot oil or move someone with suspected neck, spine, or hip fracture.",
+          "hi": "चोट पर गर्म तेल से मालिश न करें, और गर्दन, रीढ़ या कूल्हे की चोट में मरीज को न हिलाएं।"
+        },
+        {
+          "en": "Do NOT give food or water if emergency surgery may be needed.",
+          "hi": "यदि गंभीर फ्रैक्चर हो तो खाने या पीने को कुछ न दें (सर्जरी की जरूरत पड़ सकती है)।"
+        }
+      ],
+      "whenToGetHelp": {
+        "en": "Call 112 for open fractures, deformed limbs, neck/spine/pelvis pain, or fingers/toes turning blue or numb.",
+        "hi": "खुली हड्डी, टेढ़े अंग, रीढ़/गर्दन/कूल्हे में दर्द या उंगलियों के सुन्न व नीले पड़ने पर तुरंत 112 पर कॉल करें।"
+      },
+      "sources": [
+        {"name": "IFRC Fracture Care", "url": "https://www.globalfirstaidcentre.org/"},
+        {"name": "NHS Broken Bone First Aid", "url": "https://www.nhs.uk/conditions/broken-arm-or-wrist/"}
+      ],
+      "review_status": "pending_medical_review",
+      "last_reviewed": "2026-11-23"
+    },
+    {
+      "id": "head_injury",
+      "urgency": "critical",
+      "icon": "shield-alert",
+      "title": {
+        "en": "Head Injury",
+        "hi": "सिर में चोट (Head Injury)"
+      },
+      "shortLabel": {
+        "en": "Head Injury",
+        "hi": "सिर की चोट"
+      },
+      "subtitle": {
+        "en": "Fall or blow to head, vomiting, drowsiness",
+        "hi": "सिर टकराना, उल्टी, चक्कर या सुस्ती"
+      },
+      "call112First": {
+        "en": "Call 112 immediately for any loss of consciousness, repeated vomiting, confusion, or blood/fluid from ears or nose.",
+        "hi": "बेहोशी, बार-बार उल्टी, भ्रम, या कान/नाक से खून या साफ पानी आने पर तुरंत 112 पर कॉल करें।"
+      },
+      "steps": [
+        {
+          "en": "Keep the person lying still with head and neck aligned and supported—assume neck injury may also be present after falls or crashes.",
+          "hi": "व्यक्ति को बिल्कुल स्थिर लिटाएं और सिर व गर्दन को सीधा सहारा दें—दुर्घटना में गर्दन की चोट भी हो सकती है।"
+        },
+        {
+          "en": "Do NOT remove a motorcycle helmet unless you are trained and the airway is blocked.",
+          "hi": "यदि हेलमेट पहना हो और सांस का रास्ता खुला हो तो हेलमेट न उतारें।"
+        },
+        {
+          "en": "If the scalp is bleeding and no skull depression/soft dent is felt, apply gentle clean cloth pressure; if skull fracture is suspected, press only lightly around the edges.",
+          "hi": "सिर से खून बह रहा हो और खोपड़ी धंसी हुई न लगे तो साफ कपड़े से हल्का दबाव दें; हड्डी टूटने का संदेह हो तो केवल किनारों पर हल्का सहारा दें।"
+        },
+        {
+          "en": "Apply a cloth-wrapped cold pack gently on a closed bump without pressing hard.",
+          "hi": "गुमचोट या सूजन पर बिना ज्यादा दबाए कपड़े में लिपटी ठंडी पट्टी हल्के से रखें।"
+        },
+        {
+          "en": "Stay alert and monitor alertness, pupils, speech, and breathing continuously until medical staff evaluate them.",
+          "hi": "अस्पताल जांच होने तक मरीज की होश, बोलचाल, आंखों और सांस पर लगातार नजर रखें।"
+        }
+      ],
+      "doNot": [
+        {
+          "en": "Do NOT shake the person, lift their head abruptly, or move their neck after a severe fall or road crash.",
+          "hi": "गंभीर चोट के बाद मरीज को झकझोरें नहीं, न ही अचानक सिर या गर्दन हिलाएं।"
+        },
+        {
+          "en": "Do NOT let someone with concussion red flags sleep unchecked without urgent hospital assessment.",
+          "hi": "सिर चोट के खतरे के लक्षण दिखने पर बिना डॉक्टर जांच के मरीज को सोने न दें।"
+        },
+        {
+          "en": "Do NOT give painkillers, sedatives, or alcohol.",
+          "hi": "मरीज को कोई दर्द निवारक, नींद की दवा या शराब न दें।"
+        }
+      ],
+      "whenToGetHelp": {
+        "en": "Call 112 immediately for any blackout, repeated vomiting, unequal pupil size, clear fluid/blood from ear or nose, seizure, or worsening drowsiness.",
+        "hi": "चक्कर/बेहोशी, बार-बार उल्टी, पुतलियों का आकार अलग होना, कान-नाक से खून/पानी आना या बढ़ती सुस्ती पर तुरंत 112 बुलाएं।"
+      },
+      "sources": [
+        {"name": "NHS Head Injury & Concussion", "url": "https://www.nhs.uk/conditions/head-injury-and-concussion/"},
+        {"name": "WHO Basic Emergency Care", "url": "https://www.who.int/"}
+      ],
+      "review_status": "pending_medical_review",
+      "last_reviewed": "2026-11-23"
+    },
+    {
+      "id": "drowning",
+      "urgency": "critical",
+      "icon": "waves",
+      "supportsCprCoach": true,
+      "title": {
+        "en": "Drowning Rescue",
+        "hi": "डूबने से बचाव (Drowning)"
+      },
+      "shortLabel": {
+        "en": "Drowning",
+        "hi": "पानी में डूबना"
+      },
+      "subtitle": {
+        "en": "Pulled from pool, river, pond, or tank",
+        "hi": "तालाब, नदी, पूल या टंकी से निकाले जाने पर"
+      },
+      "call112First": {
+        "en": "Call 112 immediately as soon as the person is pulled out of the water.",
+        "hi": "व्यक्ति को पानी से बाहर निकालते ही तुरंत 112 पर कॉल करें।"
+      },
+      "steps": [
+        {
+          "en": "Ensure your own safety first—reach with a pole, rope, or float rather than jumping into dangerous currents if untrained.",
+          "hi": "पहले अपनी सुरक्षा देखें—रस्सी, डंडे या ट्यूब से बाहर खींचें, बिना प्रशिक्षण तेज बहाव में न कूदें।"
+        },
+        {
+          "en": "Lay the rescued person flat on their back on firm ground, keeping the head and neck supported if a diving fall occurred.",
+          "hi": "निकाले गए व्यक्ति को सख्त समतल जमीन पर पीठ के बल लिटाएं (यदि छलांग से गिरा हो तो गर्दन को स्थिर रखें)।"
+        },
+        {
+          "en": "Check responsiveness and normal breathing for up to 10 seconds.",
+          "hi": "10 सेकंड तक होश और सामान्य सांस की जांच करें।"
+        },
+        {
+          "en": "If NOT breathing normally, begin CPR immediately (if trained in rescue breaths, start with rescue breaths + chest compressions; otherwise deliver continuous Hands-Only CPR).",
+          "hi": "यदि सामान्य सांस नहीं चल रही है तो तुरंत सीपीआर शुरू करें (प्रशिक्षित हों तो रेस्क्यू ब्रीदिंग + छाती दबाव दें, अन्यथा लगातार सीने पर दबाव दें)।"
+        },
+        {
+          "en": "If breathing normally, place them on their side (recovery position), remove wet clothes, and cover with dry blankets or jackets to prevent hypothermia.",
+          "hi": "यदि सांस चल रही है तो उन्हें एक करवट लिटाएं, गीले कपड़े हटाकर सूखे कंबल या कपड़े से ढकें ताकि ठंड न लगे।"
+        }
+      ],
+      "doNot": [
+        {
+          "en": "Do NOT hold the victim upside down or press their stomach violently to 'drain water from lungs'—it delays CPR and causes vomiting.",
+          "hi": "'पेट से पानी निकालने' के लिए मरीज को उल्टा न लटकाएं और न ही पेट जोर से दबाएं—इससे उल्टी हो सकती है और सीपीआर में देरी होती है।"
+        },
+        {
+          "en": "Do NOT leave a near-drowning survivor without hospital observation, even if they look alert afterward.",
+          "hi": "डूबकर बचने वाला व्यक्ति ठीक दिख रहा हो तब भी अस्पताल जांच के बिना घर न ले जाएं।"
+        }
+      ],
+      "whenToGetHelp": {
+        "en": "Call 112 and take every near-drowning person to an emergency hospital even if they start coughing and seem recovered.",
+        "hi": "हर डूबने की घटना में 112 बुलाएं और व्यक्ति होश में आ जाए तब भी उसे अस्पताल जरूर ले जाएं।"
+      },
+      "sources": [
+        {"name": "WHO Drowning Prevention & Resuscitation", "url": "https://www.who.int/health-topics/drowning"},
+        {"name": "IFRC Drowning First Aid", "url": "https://www.globalfirstaidcentre.org/"}
+      ],
+      "review_status": "pending_medical_review",
+      "last_reviewed": "2026-11-23"
+    },
+    {
+      "id": "electric_shock",
+      "urgency": "critical",
+      "icon": "zap",
+      "supportsCprCoach": true,
+      "title": {
+        "en": "Electric Shock",
+        "hi": "बिजली का झटका / करंट (Electric Shock)"
+      },
+      "shortLabel": {
+        "en": "Electric Shock",
+        "hi": "बिजली का करंट"
+      },
+      "subtitle": {
+        "en": "Live wire, switchboard, or high-voltage contact",
+        "hi": "नंगे तार, स्विच या उपकरण से करंट लगना"
+      },
+      "call112First": {
+        "en": "Call 112 immediately and turn off the main power switch before approaching.",
+        "hi": "पास जाने से पहले मुख्य बिजली स्विच (MCB) बंद करें और तुरंत 112 पर कॉल करें।"
+      },
+      "steps": [
+        {
+          "en": "NEVER touch the victim directly while they may still be in contact with electricity.",
+          "hi": "जब तक बिजली बंद न हो जाए, पीड़ित व्यक्ति को बिल्कुल हाथ न लगाएं।"
+        },
+        {
+          "en": "Turn off the main power breaker, unplug the appliance, or call electricity emergency immediately if high-voltage power lines are involved (stay at least 20 meters away from high-voltage lines).",
+          "hi": "मेन स्विच/एमसीबी बंद करें या प्लग निकालें; यदि हाई-वोल्टेज तार हो तो कम से कम 20 मीटर दूर रहें और तुरंत बिजली विभाग व 112 को बुलाएं।"
+        },
+        {
+          "en": "Only for low-voltage household power if the switch cannot be reached: stand on dry rubber/wood and push the wire away with a dry wooden stick or dry plastic—never metal or anything wet.",
+          "hi": "केवल घरेलू वोल्टेज में स्विच न मिले तो सूखी लकड़ी/रबर पर खड़े होकर सूखी लकड़ी या प्लास्टिक से तार अलग करें—धातु या गीली चीज़ कभी न छुएं।"
+        },
+        {
+          "en": "Once completely disconnected and safe, check responsiveness and breathing; start CPR immediately if not breathing normally.",
+          "hi": "बिजली का संपर्क पूरी तरह हटने के बाद होश और सांस जांचें; सामान्य सांस न हो तो तुरंत सीपीआर शुरू करें।"
+        },
+        {
+          "en": "If breathing normally, place in recovery position and cool visible electrical entry/exit skin burns with clean cool water or sterile non-stick dressing.",
+          "hi": "यदि सांस ठीक हो तो करवट लिटाएं और करंट से जले निशानों को साफ पानी से ठंडा कर ढक दें।"
+        }
+      ],
+      "doNot": [
+        {
+          "en": "Do NOT touch the person with bare hands, wet cloth, or any metal object while current is on.",
+          "hi": "करंट चालू रहते समय नंगे हाथ, गीले कपड़े या धातु की वस्तु से व्यक्ति को न छुएं।"
+        },
+        {
+          "en": "Do NOT move the victim unnecessarily unless in danger, as electric shock can throw and cause hidden spine fractures.",
+          "hi": "खतरा न हो तो व्यक्ति को अनावश्यक न हिलाएं—झटके से रीढ़ या हड्डी में अंदरूनी चोट हो सकती है।"
+        }
+      ],
+      "whenToGetHelp": {
+        "en": "Even if the person feels fine after a noticeable shock, hospital ECG monitoring is required for hidden heart rhythm or internal burn injury.",
+        "hi": "बिजली के झटके के बाद व्यक्ति ठीक दिखे तब भी दिल की धड़कन (ECG) और अंदरूनी जांच के लिए अस्पताल जरूर ले जाएं।"
+      },
+      "sources": [
+        {"name": "Red Cross Electrical Injury", "url": "https://www.redcross.org/"},
+        {"name": "NHS Electric Shock First Aid", "url": "https://www.nhs.uk/conditions/first-aid/"}
+      ],
+      "review_status": "pending_medical_review",
+      "last_reviewed": "2026-11-23"
+    },
+    {
+      "id": "poisoning",
+      "urgency": "critical",
+      "icon": "skull",
+      "title": {
+        "en": "Poisoning / Chemical Swallowed",
+        "hi": "जहर / रसायन निगलना (Poisoning)"
+      },
+      "shortLabel": {
+        "en": "Poisoning",
+        "hi": "जहर / फिनाइल"
+      },
+      "subtitle": {
+        "en": "Swallowed chemicals, pesticides, or medicine overdose",
+        "hi": "फिनाइल, कीटनाशक, एसिड या दवा ओवरडोज"
+      },
+      "call112First": {
+        "en": "Call 112 immediately and keep the bottle, packet, or label ready to show emergency responders.",
+        "hi": "तुरंत 112 पर कॉल करें और निगले गए पदार्थ की बोतल या पैकेट डॉक्टर को दिखाने के लिए साथ रखें।"
+      },
+      "steps": [
+        {
+          "en": "Make sure the area is safe—if toxic gas or fumes are present, move the person immediately into fresh outdoor air without inhaling fumes yourself.",
+          "hi": "सुरक्षा देखें—यदि जहरीली गैस या धुआं हो तो खुद सुरक्षित रहते हुए मरीज को तुरंत खुली ताजी हवा में ले जाएं।"
+        },
+        {
+          "en": "Check if the person is conscious and breathing; if unresponsive and not breathing normally, start CPR (avoid direct mouth contact if poison is on lips—use Hands-Only CPR).",
+          "hi": "होश और सांस जांचें; यदि बेहोश हो और सांस न चल रही हो तो तुरंत सीपीआर शुरू करें (होंठों पर रसायन हो तो केवल हाथों से छाती दबाएं)।"
+        },
+        {
+          "en": "If conscious and chemical/acid was on skin or eyes, flush skin or eyes immediately with plenty of clean running water for 15–20 minutes.",
+          "hi": "यदि रसायन त्वचा या आंखों पर लगा हो तो 15–20 मिनट तक लगातार साफ बहते पानी से धोएं।"
+        },
+        {
+          "en": "If conscious after swallowing a caustic liquid, wipe the mouth gently with a wet cloth and let them spit it out.",
+          "hi": "यदि होश में हो तो गीले साफ कपड़े से मुंह के आसपास का रसायन पोंछें और अंदर बचा पदार्थ थूकने को कहें।"
+        },
+        {
+          "en": "Collect the poison container, pill strip, or bottle safely so hospital doctors know the exact substance.",
+          "hi": "बोतल, पत्ते या डिब्बे को सुरक्षित रख लें ताकि अस्पताल में डॉक्टर तुरंत सही इलाज कर सकें।"
+        }
+      ],
+      "doNot": [
+        {
+          "en": "Do NOT force the person to vomit—acid, phenyl, bleach, or kerosene burns the throat a second time coming back up.",
+          "hi": "मरीज को जबरदस्ती उल्टी बिल्कुल न करवाएं—फिनाइल, एसिड, ब्लीच या मिट्टी का तेल वापस आते समय गले को दोबारा जला सकता है।"
+        },
+        {
+          "en": "Do NOT give salt water, raw egg, milk, oil, or home 'antidotes' without explicit poison-control/doctor direction.",
+          "hi": "नमक का पानी, कच्चा अंडा, दूध, तेल या कोई घरेलू नुस्खा बिल्कुल न पिलाएं।"
+        }
+      ],
+      "whenToGetHelp": {
+        "en": "Call 112 immediately for all suspected poisonings, pesticide exposures, or medicine overdoses even if symptoms have not started yet.",
+        "hi": "जहर, कीटनाशक, क्लीनर या दवा ओवरडोज के हर मामले में लक्षण दिखने से पहले ही तुरंत 112 कॉल करें।"
+      },
+      "sources": [
+        {"name": "WHO Poisoning Prevention & Care", "url": "https://www.who.int/"},
+        {"name": "NHS Poisoning First Aid", "url": "https://www.nhs.uk/conditions/poisoning/"}
+      ],
+      "review_status": "pending_medical_review",
+      "last_reviewed": "2026-11-23"
+    },
+    {
+      "id": "heatstroke",
+      "urgency": "critical",
+      "icon": "sun",
+      "title": {
+        "en": "Heatstroke / Sunstroke",
+        "hi": "लू लगना / हीट स्ट्रोक (Heatstroke)"
+      },
+      "shortLabel": {
+        "en": "Heatstroke / लू",
+        "hi": "लू / हीट स्ट्रोक"
+      },
+      "subtitle": {
+        "en": "High body heat, confusion, dry or hot skin",
+        "hi": "तेज बुखार जैसी गर्मी, भ्रम या धूप में बेहोशी"
+      },
+      "call112First": {
+        "en": "Call 112 immediately if the person is confused, dizzy, not sweating despite extreme heat, or fainted.",
+        "hi": "तेज गर्मी में भ्रम, चक्कर, पसीना रुकने या बेहोशी होने पर तुरंत 112 पर कॉल करें।"
+      },
+      "steps": [
+        {
+          "en": "Move the person immediately out of the sun into deep shade or an air-conditioned / well-ventilated cool room.",
+          "hi": "मरीज को तुरंत धूप से हटाकर गहरी छाया, पंखे या एसी वाले ठंडे कमरे में ले जाएं।"
+        },
+        {
+          "en": "Lay them down, loosen or remove heavy outer clothing, and start cooling aggressively right away.",
+          "hi": "लिटाकर ऊपर के भारी कपड़े ढीले करें या हटा दें और तुरंत शरीर को ठंडा करना शुरू करें।"
+        },
+        {
+          "en": "Pour cool water continuously over the skin or sponge with cool wet towels while fanning vigorously.",
+          "hi": "शरीर पर लगातार सामान्य ठंडा पानी डालें या गीले तौलिये से पोंछें और साथ में तेज हवा करें।"
+        },
+        {
+          "en": "Place cloth-wrapped cold packs or wet cloths at the neck, armpits, and groin where major blood vessels pass.",
+          "hi": "गर्दन, बगल (कांख) और जांघों के ऊपरी हिस्से पर कपड़े में लिपटी ठंडी पट्टी या बर्फ की सिकाई रखें।"
+        },
+        {
+          "en": "Only if fully alert and not vomiting, give small sips of cool water or ORS; if confused or drowsy, do NOT give anything by mouth.",
+          "hi": "केवल पूरा होश होने और उल्टी न होने पर ही घूंट-घूंट करके ठंडा पानी या ORS दें; भ्रम या बेहोशी में मुंह से कुछ न दें।"
+        }
+      ],
+      "doNot": [
+        {
+          "en": "Do NOT force fluids into someone who is confused, drowsy, vomiting, or unconscious.",
+          "hi": "सुस्त, भ्रमित, उल्टी करने वाले या बेहोश व्यक्ति को जबरदस्ती पानी न पिलाएं।"
+        },
+        {
+          "en": "Do NOT delay cooling while waiting for an ambulance—rapid cooling saves brain function.",
+          "hi": "एम्बुलेंस के इंतजार में शरीर ठंडा करने में देरी न करें—तेज़ी से ठंडा करना सबसे जरूरी है।"
+        },
+        {
+          "en": "Do NOT give alcohol, energy drinks, or caffeinated soda.",
+          "hi": "शराब, एनर्जी ड्रिंक या कैफीन वाला सोडा न दें।"
+        }
+      ],
+      "whenToGetHelp": {
+        "en": "Call 112 immediately for heatstroke signs (confusion, slurred speech, seizures, collapse, or body feeling burning hot).",
+        "hi": "लू के गंभीर लक्षणों (भ्रम, लड़खड़ाती आवाज, झटके, बेहोशी या बहुत गर्म शरीर) पर तुरंत 112 कॉल करें।"
+      },
+      "sources": [
+        {"name": "NDMA Heatwave Action Plan India", "url": "https://ndma.gov.in/Natural-Hazards/Heat-Wave"},
+        {"name": "CDC / WHO Heat Illness First Aid", "url": "https://www.cdc.gov/niosh/topics/heatstress/heatrelillness.html"}
+      ],
+      "review_status": "pending_medical_review",
+      "last_reviewed": "2026-11-23"
+    },
+    {
+      "id": "asthma_attack",
+      "urgency": "critical",
+      "icon": "lungs",
+      "title": {
+        "en": "Asthma Attack",
+        "hi": "दमा / अस्थमा का दौरा (Asthma)"
+      },
+      "shortLabel": {
+        "en": "Asthma",
+        "hi": "दमा / सांस फूलना"
+      },
+      "subtitle": {
+        "en": "Wheezing, tight chest, struggle to breathe",
+        "hi": "सांस में सीटी की आवाज और सांस लेने में कठिनाई"
+      },
+      "call112First": {
+        "en": "Call 112 immediately if they have no reliever inhaler, cannot finish a sentence, lips turn blue, or breathing worsens.",
+        "hi": "यदि रिलीवर इन्हेलर न हो, पूरा वाक्य बोल न पा रहे हों, होंठ नीले पड़ें या हालत बिगड़े तो तुरंत 112 कॉल करें।"
+      },
+      "steps": [
+        {
+          "en": "Help the person sit upright calmly (leaning slightly forward on a table or knees)—never force them to lie flat.",
+          "hi": "मरीज को शांत रखकर सीधा बैठाएं (टेबल या घुटनों पर हल्का आगे झुका सकते हैं)—सीधा पीठ के बल न लिटाएं।"
+        },
+        {
+          "en": "Move away from any smoke, dust, incense, or strong fumes into clean air and loosen tight neck clothing.",
+          "hi": "धुएं, धूल, अगरबत्ती या तेज गंध से दूर साफ हवा में ले जाएं और गले के कपड़े ढीले करें।"
+        },
+        {
+          "en": "Help them use their own prescribed reliever inhaler (usually blue) and spacer if they have it with them, following their doctor's asthma action plan.",
+          "hi": "यदि उनके पास अपना निर्धारित रिलीवर इन्हेलर और स्पेसर हो, तो डॉक्टर के बताए तरीके से लेने में मदद करें।"
+        },
+        {
+          "en": "Coach slow, steady breaths (breathe in gently through nose, exhale slowly through pursed lips) to reduce panic.",
+          "hi": "घबराहट कम करने के लिए धीरे और गहरी सांस लेने का साथ दें (नाक से धीमी सांस, होंठ सिकोड़कर आराम से बाहर छोड़ें)।"
+        },
+        {
+          "en": "Stay with them and watch closely; if symptoms do not improve quickly or no inhaler is available, call 112 right away.",
+          "hi": "पास रहकर लगातार निगरानी करें; यदि राहत न मिले या इन्हेलर न हो तो तुरंत 112 पर कॉल करें।"
+        }
+      ],
+      "doNot": [
+        {
+          "en": "Do NOT make a person having an asthma attack lie flat on their back.",
+          "hi": "अस्थमा के दौरे में मरीज को सीधा पीठ के बल न लिटाएं—बैठे रहना सांस के लिए बेहतर है।"
+        },
+        {
+          "en": "Do NOT leave them alone or tell them to 'just walk it off'.",
+          "hi": "मरीज को अकेला न छोड़ें और न ही पैदल चलने को कहें।"
+        },
+        {
+          "en": "Do NOT crowd around them or expose them to cold blasts of air or smoke.",
+          "hi": "आसपास भीड़ न लगाएं और धुएं या तेज ठंडी हवा से दूर रखें।"
+        }
+      ],
+      "whenToGetHelp": {
+        "en": "Call 112 immediately if the reliever inhaler isn't helping, the person is too breathless to speak, feels exhausted, or lips/nails look bluish.",
+        "hi": "इन्हेलर से आराम न मिले, बोलने में भी सांस फूले, बहुत थकान लगे या होंठ/नाखून नीले पड़ें तो तुरंत 112 बुलाएं।"
+      },
+      "sources": [
+        {"name": "Asthma + Lung UK / NHS Attack Guidance", "url": "https://www.nhs.uk/conditions/asthma/"},
+        {"name": "IFRC Asthma First Aid", "url": "https://www.globalfirstaidcentre.org/"}
+      ],
+      "review_status": "pending_medical_review",
+      "last_reviewed": "2026-11-23"
+    },
+    {
+      "id": "allergic_reaction",
+      "urgency": "critical",
+      "icon": "siren",
+      "title": {
+        "en": "Severe Allergic Reaction (Anaphylaxis)",
+        "hi": "गंभीर एलर्जी रिएक्शन (Anaphylaxis)"
+      },
+      "shortLabel": {
+        "en": "Severe Allergy",
+        "hi": "गंभीर एलर्जी"
+      },
+      "subtitle": {
+        "en": "Swollen lips/tongue/throat, hives, wheezing",
+        "hi": "होंठ/जीभ/गला सूजना, लाल चकत्ते, सांस की दिक्कत"
+      },
+      "call112First": {
+        "en": "Call 112 immediately—airway swelling and shock can worsen within minutes.",
+        "hi": "तुरंत 112 पर कॉल करें—गले की सूजन और एलर्जी शॉक कुछ ही मिनटों में गंभीर हो सकता है।"
+      },
+      "steps": [
+        {
+          "en": "Check if the person carries their own prescribed epinephrine auto-injector (such as EpiPen) and help them inject it into the outer mid-thigh as instructed on the device.",
+          "hi": "देखें कि क्या मरीज के पास खुद का निर्धारित एपिनेफ्रीन ऑटो-इंजेक्टर (जैसे EpiPen) है; यदि हो तो निर्देशानुसार बाहरी जांघ के बीच लगाने में मदद करें।"
+        },
+        {
+          "en": "Call 112 immediately, even if symptoms start improving after an auto-injector.",
+          "hi": "इंजेक्शन के बाद आराम मिलने पर भी तुरंत 112 पर कॉल करें और अस्पताल जाएं।"
+        },
+        {
+          "en": "Remove the trigger if obvious (for a bee sting, gently scrape the stinger sideways with a card edge—do not squeeze it).",
+          "hi": "यदि मधुमक्खी का डंक त्वचा में हो तो कार्ड के किनारे से हल्के से खुरचकर निकालें (चिमटी से दबाएं नहीं)।"
+        },
+        {
+          "en": "Lay the person flat with legs slightly raised (or sit upright if breathing is hard; recovery position on side if pregnant or vomiting).",
+          "hi": "व्यक्ति को सीधा लिटाकर पैर हल्के ऊपर रखें (यदि सांस लेने में तकलीफ हो तो बैठाएं; उल्टी या गर्भावस्था में बाईं करवट लिटाएं)।"
+        },
+        {
+          "en": "Monitor breathing continuously and be ready to start CPR if they collapse and stop breathing normally.",
+          "hi": "सांस पर लगातार नजर रखें और यदि व्यक्ति बेहोश होकर सांस रोक दे तो तुरंत सीपीआर शुरू करें।"
+        }
+      ],
+      "doNot": [
+        {
+          "en": "Do NOT let someone in anaphylactic shock stand up or walk suddenly—blood pressure can plummet dangerously.",
+          "hi": "गंभीर एलर्जी में व्यक्ति को अचानक खड़ा न होने दें और न ही चलाएं—ब्लड प्रेशर तेजी से गिर सकता है।"
+        },
+        {
+          "en": "Do NOT squeeze a bee stinger sac with fingers or tweezers.",
+          "hi": "मधुमक्खी के डंक को उंगलियों से दबाकर न निकालें।"
+        },
+        {
+          "en": "Do NOT rely only on over-the-counter antihistamines if throat swelling, hoarse voice, or breathing trouble is present.",
+          "hi": "गला सूजने, आवाज बदलने या सांस की दिक्कत में केवल साधारण एलर्जी की गोली के भरोसे न रहें—तुरंत 112 बुलाएं।"
+        }
+      ],
+      "whenToGetHelp": {
+        "en": "Call 112 immediately for ANY swelling of lips, tongue, or throat, trouble breathing, hoarseness, widespread hives, or dizziness after food, sting, or medicine.",
+        "hi": "खाना, डंक या दवा के बाद होंठ-जीभ-गला सूजने, सांस फूलने, आवाज बैठने या चक्कर आने पर तुरंत 112 कॉल करें।"
+      },
+      "sources": [
+        {"name": "NHS Anaphylaxis Guidance", "url": "https://www.nhs.uk/conditions/anaphylaxis/"},
+        {"name": "Red Cross Anaphylaxis First Aid", "url": "https://www.redcross.org/"}
+      ],
+      "review_status": "pending_medical_review",
+      "last_reviewed": "2026-11-23"
+    },
+    {
+      "id": "dog_bite",
+      "urgency": "urgent",
+      "icon": "paw-print",
+      "title": {
+        "en": "Dog / Animal Bite (Rabies Care)",
+        "hi": "कुत्ते या जानवर का काटना (रेबीज बचाव)"
+      },
+      "shortLabel": {
+        "en": "Dog / Animal Bite",
+        "hi": "कुत्ते का काटना"
+      },
+      "subtitle": {
+        "en": "Dog, monkey, cat, or stray animal bite/scratch",
+        "hi": "कुत्ता, बंदर या बिल्ली के काटने व खरोंच पर"
+      },
+      "call112First": {
+        "en": "Call 112 if bleeding is heavy or on the face/neck; otherwise wash immediately for 15 minutes and visit a hospital same day for anti-rabies vaccine.",
+        "hi": "तेज खून बहने या चेहरे/गर्दन पर काटने पर 112 कॉल करें; अन्यथा तुरंत 15 मिनट घाव धोएं और उसी दिन एंटी-रेबीज टीके के लिए अस्पताल जाएं।"
+      },
+      "steps": [
+        {
+          "en": "Immediately wash the bite or scratch thoroughly under running tap water and soap (detergent or bath soap) for at least 15 full minutes.",
+          "hi": "काटे गए घाव या खरोंच को तुरंत बहते नल के पानी और साबुन से लगातार कम से कम 15 पूरे मिनट तक अच्छी तरह धोएं।"
+        },
+        {
+          "en": "Gently press with a clean cloth if bleeding heavily after washing; apply povidone-iodine or antiseptic if available.",
+          "hi": "धोने के बाद तेज खून बह रहा हो तो साफ कपड़े से हल्का दबाव दें; उपलब्ध हो तो पोविडोन-आयोडीन लगाएं।"
+        },
+        {
+          "en": "Cover the wound loosely with a clean sterile dressing—do NOT seal or stitch it yourself.",
+          "hi": "घाव को साफ पट्टी से ढीला ढकें—खुद से कसकर बंद न करें।"
+        },
+        {
+          "en": "Go to a hospital or government health center the SAME day for anti-rabies vaccination and rabies immunoglobulin evaluation (even for pet bites or licked open cuts).",
+          "hi": "उसी दिन अस्पताल या सरकारी स्वास्थ्य केंद्र जाकर डॉक्टर से एंटी-रेबीज वैक्सीन व इम्युनोग्लोबुलिन की जांच करवाएं (पालतू जानवर के काटने पर भी)।"
+        },
+        {
+          "en": "Keep note of the time, animal type, and whether it was stray or vaccinated.",
+          "hi": "काटने का समय, जानवर का प्रकार और वह आवारा था या टीकाकृत—इसकी जानकारी डॉक्टर को दें।"
+        }
+      ],
+      "doNot": [
+        {
+          "en": "Do NOT apply chili powder, turmeric, lime (chuna), oil, coffee, garlic, or mud onto the bite wound.",
+          "hi": "घाव पर मिर्च पाउडर, हल्दी, चूना, तेल, लहसुन या मिट्टी बिल्कुल न लगाएं।"
+        },
+        {
+          "en": "Do NOT get the wound tightly stitched immediately without rabies specialist evaluation.",
+          "hi": "रेबीज डॉक्टर की जांच के बिना घाव पर तुरंत टांके न लगवाएं।"
+        },
+        {
+          "en": "Do NOT skip the hospital visit—rabies is nearly 100% fatal once symptoms start, but preventable with timely vaccine.",
+          "hi": "अस्पताल जाने में बिल्कुल लापरवाही न करें—सही समय पर टीका रेबीज से पूरी सुरक्षा देता है।"
+        }
+      ],
+      "whenToGetHelp": {
+        "en": "Call 112 for deep/face/neck bites or heavy bleeding; visit an emergency clinic immediately on day 0 for ALL animal bites or broken-skin scratches.",
+        "hi": "गहरे, चेहरे/गर्दन के घाव या तेज खून पर 112 बुलाएं; हर जानवर के काटने या खरोंच पर उसी दिन अस्पताल जरूर जाएं।"
+      },
+      "sources": [
+        {"name": "WHO Rabies Post-Exposure Prophylaxis", "url": "https://www.who.int/health-topics/rabies"},
+        {"name": "NCDC India Rabies Guidelines", "url": "https://ncdc.mohfw.gov.in/"}
+      ],
+      "review_status": "pending_medical_review",
+      "last_reviewed": "2026-11-23"
+    },
+    {
+      "id": "nosebleed",
+      "urgency": "urgent",
+      "icon": "droplet",
+      "title": {
+        "en": "Nosebleed (Epistaxis)",
+        "hi": "नकसीर / नाक से खून (Nosebleed)"
+      },
+      "shortLabel": {
+        "en": "Nosebleed",
+        "hi": "नकसीर"
+      },
+      "subtitle": {
+        "en": "Bleeding from one or both nostrils",
+        "hi": "नाक से लगातार खून बहना"
+      },
+      "call112First": {
+        "en": "Call 112 if bleeding follows a head injury, lasts longer than 20 minutes of pinching, or breathing is difficult.",
+        "hi": "यदि सिर की चोट के बाद खून आए, 20 मिनट दबाने पर भी न रुके, या सांस में दिक्कत हो तो तुरंत 112 कॉल करें।"
+      },
+      "steps": [
+        {
+          "en": "Sit the person upright and lean their head slightly FORWARD (chin toward chest) so blood drains out rather than down the throat.",
+          "hi": "व्यक्ति को सीधा बैठाएं और सिर हल्का आगे की ओर झुकाएं ताकि खून गले में न जाकर बाहर निकले।"
+        },
+        {
+          "en": "Pinch the soft fleshy lower part of the nose (just below the bony bridge) firmly together using thumb and index finger.",
+          "hi": "अंगूठे और उंगली से नाक के ऊपरी हड्डी वाले हिस्से के ठीक नीचे वाले नरम हिस्से को मजबूती से दबाकर बंद करें।"
+        },
+        {
+          "en": "Ask them to breathe calmly through their mouth and keep pinching continuously for 10–15 minutes without letting go to check.",
+          "hi": "मुंह से आराम से सांस लेने को कहें और बीच में छोड़े बिना लगातार 10–15 मिनट तक नाक दबाए रखें।"
+        },
+        {
+          "en": "Spit out any blood that enters the mouth instead of swallowing it (swallowing blood causes stomach upset and vomiting).",
+          "hi": "मुंह में आया खून निगलें नहीं बल्कि बाहर थूक दें (निगलने से उल्टी हो सकती है)।"
+        },
+        {
+          "en": "Place a cloth-wrapped cold pack on the bridge of the nose or forehead if comfortable; once stopped, rest calmly and avoid blowing the nose for several hours.",
+          "hi": "नाक के ऊपर या माथे पर कपड़े में लिपटी ठंडी पट्टी रख सकते हैं; खून रुकने पर कुछ घंटे आराम करें और नाक न झटकें।"
+        }
+      ],
+      "doNot": [
+        {
+          "en": "Do NOT tilt the head backward or lie flat on the back—blood can run into the airway or stomach.",
+          "hi": "सिर को पीछे की ओर न झुकाएं और न ही पीठ के बल सीधा लेटें।"
+        },
+        {
+          "en": "Do NOT stuff tissue paper, cotton balls, or cloth deep inside the nostrils.",
+          "hi": "नाक के अंदर गहराई तक रुई, टिशू या कपड़ा न ठूंसें।"
+        },
+        {
+          "en": "Do NOT blow, pick, or rub the nose right after bleeding stops.",
+          "hi": "खून रुकने के तुरंत बाद नाक जोर से साफ न करें या खुजली न करें।"
+        }
+      ],
+      "whenToGetHelp": {
+        "en": "Seek emergency care if bleeding persists beyond 20 minutes, follows head trauma, causes dizziness/weakness, or the patient takes blood thinners.",
+        "hi": "20 मिनट से ज्यादा खून बहने, सिर चोट के बाद नकसीर, चक्कर आने या ब्लड थिनर दवा लेने वाले मरीज को तुरंत अस्पताल ले जाएं।"
+      },
+      "sources": [
+        {"name": "NHS Nosebleed First Aid", "url": "https://www.nhs.uk/conditions/nosebleed/"},
+        {"name": "Red Cross Epistaxis Care", "url": "https://www.redcross.org/"}
+      ],
+      "review_status": "pending_medical_review",
+      "last_reviewed": "2026-11-23"
+    },
+    {
+      "id": "low_blood_sugar",
+      "urgency": "critical",
+      "icon": "gauge",
+      "title": {
+        "en": "Low Blood Sugar (Hypoglycemia)",
+        "hi": "कम ब्लड शुगर (Low Sugar)"
+      },
+      "shortLabel": {
+        "en": "Low Sugar",
+        "hi": "लो शुगर"
+      },
+      "subtitle": {
+        "en": "Shaking, cold sweat, confusion in diabetes",
+        "hi": "डायबिटीज में कंपकंपी, ठंडा पसीना, भ्रम"
+      },
+      "call112First": {
+        "en": "Call 112 immediately if the person is unconscious, having a seizure, or cannot safely swallow.",
+        "hi": "यदि व्यक्ति बेहोश हो, झटके आ रहे हों, या निगल न पा रहा हो तो तुरंत 112 पर कॉल करें।"
+      },
+      "steps": [
+        {
+          "en": "Check consciousness first: if unconscious or unable to swallow safely, do NOT put food or drink in the mouth—place in side recovery position and call 112 immediately.",
+          "hi": "पहले होश जांचें: यदि व्यक्ति बेहोश है या निगल नहीं सकता, तो मुंह में कुछ न डालें—करवट से लिटाएं और तुरंत 112 कॉल करें।"
+        },
+        {
+          "en": "If AWAKE and able to swallow safely, immediately give fast-acting sugar (about 15g): 3–4 teaspoons of sugar dissolved in water, half a glass of regular fruit juice/glucose drink, or 1 tablespoon of honey.",
+          "hi": "यदि व्यक्ति होश में है और सुरक्षित निगल सकता है, तो तुरंत तेजी से असर करने वाला मीठा दें: पानी में 3–4 चम्मच चीनी/ग्लूकोज घोल, आधा गिलास जूस या 1 बड़ा चम्मच शहद।"
+        },
+        {
+          "en": "Have the person sit calmly and wait 15 minutes.",
+          "hi": "व्यक्ति को आराम से बैठाएं और 15 मिनट इंतजार करें।"
+        },
+        {
+          "en": "If a glucometer is available, recheck blood sugar after 15 minutes; if still below 70 mg/dL or symptoms persist, repeat one more 15g fast sugar serving and seek medical advice.",
+          "hi": "ग्लूकोमीटर हो तो 15 मिनट बाद शुगर दोबारा जांचें; यदि 70 mg/dL से कम रहे तो एक बार फिर मीठा घोल दें और डॉक्टर से संपर्क करें।"
+        },
+        {
+          "en": "Once alert and recovered above 70 mg/dL, offer a small complex snack (like crackers, roti, or a sandwich) if the next meal is more than an hour away.",
+          "hi": "होश और शुगर 70 से ऊपर आने के बाद अगले भोजन में समय हो तो हल्का नाश्ता (बिस्कुट, रोटी या सैंडविच) दें।"
+        }
+      ],
+      "doNot": [
+        {
+          "en": "Do NOT pour juice, honey, or sugar water into the mouth of an unconscious or very drowsy person—it causes choking.",
+          "hi": "बेहोश या बहुत सुस्त व्यक्ति के मुंह में जूस या मीठा पानी न डालें—इससे दम घुट सकता है।"
+        },
+        {
+          "en": "Do NOT give insulin when blood sugar is low.",
+          "hi": "कम ब्लड शुगर होने पर कभी भी इंसुलिन न दें।"
+        },
+        {
+          "en": "Do NOT use diet soda or sugar-free drinks, and avoid greasy chocolates as the first rescue step (fat slows sugar absorption).",
+          "hi": "डाइट सोडा या शुगर-फ्री पेय न दें, और पहले उपाय के रूप में भारी फैट वाली चॉकलेट से बचें।"
+        }
+      ],
+      "whenToGetHelp": {
+        "en": "Call 112 immediately if the person loses consciousness, cannot swallow, has seizures, or does not improve after fast sugar.",
+        "hi": "बेहोशी, निगलने में असमर्थता, दौरे या मीठा देने के बाद भी सुधार न होने पर तुरंत 112 कॉल करें।"
+      },
+      "sources": [
+        {"name": "American Diabetes Association 15-15 Rule", "url": "https://diabetes.org/living-with-diabetes/treatment-care/hypoglycemia"},
+        {"name": "NHS Low Blood Sugar Emergency", "url": "https://www.nhs.uk/conditions/low-blood-sugar-hypoglycaemia/"}
+      ],
+      "review_status": "pending_medical_review",
+      "last_reviewed": "2026-11-23"
+    }
+  ]
+}
